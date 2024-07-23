@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "noImplicitAny": true,
+        "allowJs": true,
+        "strict": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "allowImportingTsExtensions": true,
+        "sourceMap": true,
+        "moduleResolution": "bundler",
+        "jsx": "preserve",
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "lib": ["esnext", "dom", "dom.iterable"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+}
